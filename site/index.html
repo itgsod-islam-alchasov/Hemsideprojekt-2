@@ -12,7 +12,7 @@
     <body>
 
     <div class="upper_bar">
-    <div class="menu">
+    <div class="menu"> <!--The reason there are two divs that do the same is to make it more optimized.-->
         <a class="banner" href="index.html"><img src="img/Banner.png"></a>
 
             <a href="index.html" class="menu_b"><h1>HOME</h1></a>
@@ -20,12 +20,14 @@
             <a href="students.html" class="menu_b"><h1>TOOLS</h1></a>
             <a href="contact.html" class="menu_b"><h1>CONTACT</h1></a>
 
-        <div class="menu_google">
+        <div class="menu_google"><!--This div contains the google search bar.-->
+            <form id="cref" method="get" action="http://www.google.com/search">
             <input id="search_bar" placeholder="Search Google" type="text" name="q" size="23" maxlength="50" value="" spellcheck="false">
             <input id="search_submit" type="submit" value="Search">
-        </div>
-    </div>
-    </div> <!--End of upper_bar
+            </form>
+        </div><!--End of menu_google-->
+    </div> <!--End of menu-->
+    </div> <!--End of upper_bar-->
 
     </body>
 

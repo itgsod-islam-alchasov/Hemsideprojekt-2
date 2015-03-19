@@ -12,21 +12,23 @@
 
     <body>
 
-    <div class="container">
+    <div class="upper_bar">
+        <div class="menu"> <!--The reason there are two divs that do the same is to make it more optimized.-->
+            <a class="banner" href="index.html"><img src="img/Banner.png"></a>
 
-        <div class="menu">
+            <a href="index.html" class="menu_b"><h1>HOME</h1></a>
+            <a href="about.html" class="menu_b"><h1>ABOUT</h1></a>
+            <a href="students.html" class="menu_b"><h1>TOOLS</h1></a>
+            <a href="contact.html" class="menu_b"><h1>CONTACT</h1></a>
 
-            <a class="menu_b" href="index.html"><h1>Home</h1></a>
-            <div class="spacer"></div>
-            <a class="menu_b" href="about.html"><h1>About</h1></a>
-            <div class="spacer"></div>
-            <a class="menu_b" href="students.html"><h1>Tools</h1></a>
-            <div class="spacer"></div>
-            <a class="menu_b" href="contact.html"><h1>Contact</h1></a>
-
-        </div><!--End of menu-->
-
-    </div><!--End of container-->
+            <div class="menu_google"><!--This div contains the google search bar.-->
+                <form id="cref" method="get" action="http://www.google.com/search">
+                    <input id="search_bar" placeholder="Search Google" type="text" name="q" size="23" maxlength="50" value="" spellcheck="false">
+                    <input id="search_submit" type="submit" value="Search">
+                </form>
+            </div><!--End of menu_google-->
+        </div> <!--End of menu-->
+    </div> <!--End of upper_bar-->
 
     </body>
 
