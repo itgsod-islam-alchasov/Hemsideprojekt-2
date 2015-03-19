@@ -11,6 +11,11 @@ body {
     margin-top: 20px;
 }
 
+@font-face {
+    font-family: 'main';
+    src: url("../font/trench.otf");
+}
+
 /*---------------Menu---------------*/
 
 .banner {
@@ -46,8 +51,11 @@ body {
 
 .menu_b h1 {
     font-size: 26px;
+    font-family: main;
     margin: auto;
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
 }
+
+.menu_google
