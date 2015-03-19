@@ -40,6 +40,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     float: left;
+    position: relative;
     text-decoration: none;
     color: #3e3e3e;
 }
@@ -58,4 +59,32 @@ body {
     text-align: center;
 }
 
-.menu_google
+.menu_google {
+    height: inherit;
+    width: 610px;
+    float: left;
+}
+
+#search_bar {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 0px;
+    height: 26px;
+    width: 200px;
+    float: left;
+    font-size: 15px;
+    color: white;
+    background-color: #303030;
+    margin-top: 12px;
+    margin-left: 200px;
+}
+
+#search_submit {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: 0px;
+    background-color: #303030;
+    margin-top: 12px;
+    height: 28px;
+    width: 60px;
+}
