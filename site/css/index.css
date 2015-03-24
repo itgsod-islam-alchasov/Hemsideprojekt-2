@@ -6,12 +6,15 @@
 }
 .banner ul {
     list-style: none;
+    padding: 0px;
+    margin: 0px;
     width: 400%;
 }
 .banner ul li {
+    position: relative;
+    margin: 0px;
     display: block;
     float: left;
-    width: 25%;
     min-height: 500px;
 
     -o-background-size: 100% 100%;
@@ -19,6 +22,7 @@
     -moz-background-size: 100% 100%;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
+    background-size: cover;
 
     box-shadow: inset 0 -3px 6px rgba(0,0,0,.1);
 }
