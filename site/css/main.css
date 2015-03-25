@@ -23,6 +23,11 @@ html {
     src: url("../font/trench.otf");
 }
 
+@font-face {
+    font-family: 'cendela';
+    src: url("../font/CandelaBold.otf");
+}
+
 /*---------------Menu---------------*/
 
 .logo {
