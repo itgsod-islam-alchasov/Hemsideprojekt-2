@@ -124,3 +124,10 @@ body {
     color: red;
     font-family: main;
 }
+
+.spacer {
+    height: 2px;
+    width: 90%;
+    background-color: #262626;
+    margin: auto;
+}
