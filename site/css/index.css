@@ -113,7 +113,7 @@ body {
 
 .spacer {
     height: 2px;
-    width: 90%;
+    width: 100%;
     background-color: #262626;
-    margin: auto;
+    margin-bottom: 5px;
 }
