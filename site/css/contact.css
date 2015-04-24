@@ -60,3 +60,66 @@
     font-size: 18px;
     margin-left: 235px;
 }
+
+#about a {
+    text-decoration: none;
+    color: red;
+}
+
+.s_info {
+    width: 1020px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.numbers {
+    height: 250px;
+    width: 510px;
+    float: left;
+}
+
+.font_change {
+    font-family: main;
+}
+
+.info_header {
+    text-align: center;
+    margin-top: 0px;
+    color: red;
+    font-family: main;
+}
+
+.numbers h3 {
+    float: left;
+    margin: 0px;
+    padding-left: 30px;
+    color: red;
+    font-size: 23px;
+}
+
+.numbers p {
+    margin-left: 190px;
+    color: #ffffff;
+    font-family: cendela;
+}
+
+.adress {
+    height: 250px;
+    width: 510px;
+    float: left;
+}
+
+.adress h3 {
+    float: left;
+    margin: 0px;
+    padding-left: 30px;
+    color: red;
+    font-size: 23px;
+}
+
+.adress p {
+    margin-left: 190px;
+    color: #ffffff;
+    font-family: cendela;
+}
