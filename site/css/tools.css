@@ -1,0 +1,110 @@
+body {
+    height: 400px;
+}
+
+#center {
+    /*border: 2px solid red;*/
+    height: 400px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: auto;
+}
+
+#Button1 {
+    float: left;
+    margin-left: 50px;
+    font-family: main;
+
+    /*
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    */
+}
+
+#Button2 {
+    float: left;
+    font-family: main;
+}
+
+#Button3 {
+    float: left;
+    margin-right: 50px;
+
+    font-family: main;
+    /*
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    */
+}
+
+
+
+.ButtonM {
+    height: 125px;
+    width: 300px;
+    color: #3e3e3e;
+    text-decoration: none;
+}
+
+.ButtonM:hover {
+    color: white;
+    border-bottom: 2px solid red;
+
+    /*Used to make the page more "animated"*/
+    -webkit-transition: background-color 1s linear;
+    -moz-transition: background-color 1s linear;
+    -o-transition: background-color 1s linear;
+    -ms-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
+
+#center a h1 {
+    text-align: center;
+    margin-top: 47px;
+}
+
+#how {
+    font-family: main;
+    text-align: center;
+    font-size: 44px;
+    color: red;
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 29px;
+}
+
+#Row1 {
+    height: 137px;
+    width: 100%;
+}
+#Row2 {
+    height: 137px;
+    width: 100%;
+}
+
+.R1 {
+    width: 450px;
+    margin: 0px;
+    margin-left: 50px;
+}
+
+.R2 {
+    width: 450px;
+    margin-right: 50px;
+}
+
+.R1:hover .R2:hover {
+
+}
+
+.spacer {
+    height: 2px;
+    width: 80%;
+    background-color: #3e3e3e;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
