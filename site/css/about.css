@@ -1,0 +1,39 @@
+
+
+.spacer {
+    height: 2px;
+    width: 816px;
+    background-color: #3e3e3e;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.content p {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #ffffff;
+    font-family: cendela;
+}
+
+/*-------------------------------------------------*/
+
+#how {
+    font-family: main;
+    text-align: center;
+    font-size: 44px;
+    color: red;
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 29px;
+}
