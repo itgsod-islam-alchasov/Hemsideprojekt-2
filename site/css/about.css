@@ -1,5 +1,7 @@
-
-
+body {
+    padding-bottom: 100px;
+}
+/*-------------------------------------------------*/
 .spacer {
     height: 2px;
     width: 816px;
@@ -38,7 +40,7 @@
 
 /*-------------------------------------------------*/
 
-#how {
+#title {
     font-family: main;
     text-align: center;
     font-size: 44px;
@@ -48,7 +50,7 @@
     padding-bottom: 29px;
 }
 
-#name_title {
+#person_name {
     margin: 0px;
     font-size: 35px;
     font-family: main;
@@ -57,7 +59,7 @@
     padding-top: 10px;
 }
 
-#about {
+#person_about {
     width: 750px;
     color: #ffffff;
     font-family: cendela;
@@ -65,7 +67,7 @@
     margin-left: 235px;
 }
 
-#about a {
+#person_about a {
     text-decoration: none;
     color: red;
 }

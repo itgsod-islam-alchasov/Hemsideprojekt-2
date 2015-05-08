@@ -1,12 +1,25 @@
-.t_info {
-    width: 1020px;
-    height: inherit;
-    margin: auto;
-    margin-top: -30px;
-    margin-bottom:40px;
+body {
+    padding-bottom: 100px;
 }
 
-#how {
+/*------------------------------------------------------*/
+
+.list {
+    width: 1020px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s_info {
+    width: 1020px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.title {
     font-family: main;
     text-align: center;
     font-size: 44px;
@@ -26,15 +39,6 @@
     margin-left: auto;
 }
 
-.list {
-    width: 100%;
-    height: 902px;
-    float: left;
-    margin: 0px;
-    padding: 0px;
-
-}
-
 .list_person {
     width: 100%;
     height: 200px;
@@ -45,34 +49,6 @@
     float: left;
 }
 
-#name_title {
-    margin: 0px;
-    font-size: 35px;
-    font-family: main;
-    color: red;
-    text-align: center;
-    padding-top: 10px;
-}
-
-#about {
-    width: 750px;
-    color: #ffffff;
-    font-family: cendela;
-    font-size: 18px;
-    margin-left: 235px;
-}
-
-#about a {
-    text-decoration: none;
-    color: red;
-}
-
-.s_info {
-    width: 1020px;
-    height: 400px;
-    margin: auto;
-    margin-top: 50px;
-}
 
 .numbers {
     height: 250px;
@@ -123,4 +99,28 @@
     margin-left: 190px;
     color: #ffffff;
     font-family: cendela;
+}
+
+/*------------------------------------------------------*/
+
+#person_name {
+    margin: 0px;
+    font-size: 35px;
+    font-family: main;
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#person_about {
+    width: 750px;
+    color: #ffffff;
+    font-family: cendela;
+    font-size: 18px;
+    margin-left: 235px;
+}
+
+#person_about a {
+    text-decoration: none;
+    color: red;
 }
