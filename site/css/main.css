@@ -1,7 +1,6 @@
-/*---------------main components---------------*/
+/*------------------------------------------------------*/
 body {
     background-color: #171717;
-    height: 1200px;
     padding: 0px;
     margin: 0px;
 }
@@ -9,13 +8,6 @@ body {
 html {
     padding: 0px;
     margin: 0px;
-}
-
-.container {
-    height: 1100px;
-    width: 900px;
-    margin: auto;
-    margin-top: 20px;
 }
 
 @font-face {
@@ -28,7 +20,14 @@ html {
     src: url("../font/CandelaBold.otf");
 }
 
-/*---------------Menu---------------*/
+/*------------------------------------------------------*/
+
+.container {
+    height: 1100px;
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+}
 
 .logo {
     height: 100%;
@@ -80,6 +79,8 @@ html {
     margin-left: 15px;
     float: left;
 }
+
+/*------------------------------------------------------*/
 
 #search_bar {
     border-top-left-radius: 7px;
