@@ -23,16 +23,18 @@
     width: 400px;
  }
 
-    /*^^^^^^Contact.css^^^^^^*/
-    /*Tools.css*/
+/*^^^^^^Contact.css^^^^^^*/
+/*Tools.css*/
+    .button:focus {
+        color: white;
+        border-bottom: 2px solid red;
 
-.ButtonM {
-    color: #ffffff;
-}
-
-.ButtonM R2 {
-
-}
-
+        /*Used to make the page more "animated"*/
+        -webkit-transition: background-color 1s linear;
+        -moz-transition: background-color 1s linear;
+        -o-transition: background-color 1s linear;
+        -ms-transition: background-color 1s linear;
+        transition: background-color 1s linear;
+    }
 /*^^^^^^Tools.css^^^^^^*/
 }

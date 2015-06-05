@@ -1,49 +1,41 @@
-#center {
-    /*border: 2px solid red;*/
-    height: 400px;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-}
-
 .content {
     margin-top: 50px;
-    ma
+    margin-left: auto;
+    margin-right: auto;
+    width: 1020px;
+    height: 400px;
 }
 
-#Button1 {
-    float: left;
-    margin-left: 50px;
+#title {
     font-family: main;
+    text-align: center;
+    font-size: 44px;
+    color: red;
+    margin: 0px;
+    padding-top: 25px;
+    margin-bottom: 10px;
 }
 
-#Button2 {
+.spacer {
+    height: 2px;
+    width: 80%;
+    background-color: #3e3e3e;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
     float: left;
-    font-family: main;
-}
-
-#Button3 {
-    float: left;
-    margin-right: 50px;
-
-    font-family: main;
-    /*
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    */
-}
-
-
-
-.ButtonM {
-    height: 125px;
-    width: 300px;
-    color: #3e3e3e;
+    height: 40px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15px;
     text-decoration: none;
+    color: red;
 }
 
-.ButtonM:hover {
+.button:hover {
     color: white;
     border-bottom: 2px solid red;
 
@@ -55,47 +47,10 @@
     transition: background-color 1s linear;
 }
 
-#center a h1 {
+.button h1 {
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
     text-align: center;
-    margin-top: 47px;
-}
-
-#title {
     font-family: main;
-    text-align: center;
-    font-size: 44px;
-    color: red;
-    margin: 0px;
-    padding-top: 25px;
-    padding-bottom: 29px;
-}
-
-#Row1 {
-    height: 137px;
-    width: 100%;
-}
-#Row2 {
-    height: 137px;
-    width: 100%;
-}
-
-.R1 {
-    width: 450px;
-    margin: 0px;
-    margin-left: 50px;
-}
-
-.R2 {
-    width: 450px;
-    margin-right: 50px;
-}
-
-.spacer {
-    height: 2px;
-    width: 816px;
-    background-color: #3e3e3e;
-    margin-top: -10px;
-    margin-bottom: 10px;
-    margin-right: auto;
-    margin-left: auto;
 }
