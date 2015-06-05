@@ -1,6 +1,6 @@
 @media only screen and (max-device-width: 480px) {
 
-    /*Contact.html/.css*/
+    /*Contact.css*/
 
 .s_info {
     height: 450px;
@@ -23,8 +23,16 @@
     width: 400px;
  }
 
-    /*^^^^^^Contact.html/.css^^^^^^*/
+    /*^^^^^^Contact.css^^^^^^*/
+    /*Tools.css*/
 
+.ButtonM {
+    color: #ffffff;
+}
 
+.ButtonM R2 {
 
+}
+
+/*^^^^^^Tools.css^^^^^^*/
 }
