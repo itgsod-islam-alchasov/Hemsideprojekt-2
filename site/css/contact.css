@@ -17,6 +17,7 @@ body {
     height: 300px;
     margin: auto;
     margin-top: 50px;
+    background-color: green;
 }
 
 .title {
@@ -26,17 +27,16 @@ body {
     color: red;
     margin: 0px;
     padding-top: 25px;
-    padding-bottom: 29px;
 }
 
 .spacer {
     height: 2px;
     width: 80%;
     background-color: #3e3e3e;
-    margin-top: -10px;
-    margin-bottom: 30px;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 19px;
+    margin-top: 10px;
 }
 
 .list_person {
@@ -49,17 +49,6 @@ body {
     float: left;
 }
 
-
-.numbers {
-    height: 250px;
-    width: 510px;
-    float: left;
-}
-
-.font_change {
-    font-family: main;
-}
-
 .info_header {
     text-align: center;
     margin-top: 0px;
@@ -67,22 +56,49 @@ body {
     font-family: main;
 }
 
+.line {
+    width: 80%;
+    height: 23px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.numbers {
+    height: 200px;
+    width: 510px;
+    float: left;
+}
+
 .numbers h3 {
     float: left;
     margin: 0px;
-    padding-left: 30px;
     color: red;
     font-size: 23px;
+    font-family: main;
 }
 
 .numbers p {
-    margin-left: 190px;
+    float: left;
+    margin: 0px;
+    height: 23px;
+    padding-left: 15px;
     color: #ffffff;
     font-family: cendela;
 }
 
+.line_2 {
+    width: 80%;
+    height: 42px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .adress {
-    height: 250px;
+    height: 200px;
     width: 510px;
     float: left;
 }
@@ -90,13 +106,16 @@ body {
 .adress h3 {
     float: left;
     margin: 0px;
-    padding-left: 30px;
     color: red;
     font-size: 23px;
+    font-family: main;
 }
 
 .adress p {
-    margin-left: 190px;
+    float: left;
+    margin: 0px;
+    height: 23px;
+    padding-left: 15px;
     color: #ffffff;
     font-family: cendela;
 }
