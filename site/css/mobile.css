@@ -1,5 +1,7 @@
 @media only screen and (max-device-width: 480px) {
 
+    /*Contact.html/.css*/
+
 .s_info {
     height: 450px;
 }
@@ -20,5 +22,9 @@
 .line_2 {
     width: 400px;
  }
+
+    /*^^^^^^Contact.html/.css^^^^^^*/
+
+
 
 }
