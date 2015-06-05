@@ -1,0 +1,24 @@
+@media only screen and (max-device-width: 480px) {
+
+.s_info {
+    height: 450px;
+}
+
+.numbers {
+    width: 1020px;
+    height: 150px;
+}
+
+.adress {
+    width: 1020px;
+    height: 150px;
+}
+
+.line {
+    width: 400px;
+}
+.line_2 {
+    width: 400px;
+ }
+
+}
