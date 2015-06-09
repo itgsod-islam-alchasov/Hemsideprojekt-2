@@ -23,7 +23,6 @@
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
     background-size: cover;
-    box-shadow: inset 0 -3px 6px rgba(0,0,0,.1);
 }
 .dots {
     position: absolute;
@@ -98,4 +97,34 @@
 #h1title {
     color: red;
     font-family: main;
+}
+
+.sprite {
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-1 {
+    width: 1400px;
+    height: 500px;
+    background-position: 0 0;
+}
+
+.sprite-2 {
+    width: 1400px;
+    height: 500px;
+    background-position: -1400px 0;
+}
+
+.sprite-3 {
+    width: 1400px;
+    height: 500px;
+    background-position: -2800px 0;
+}
+
+.sprite-4 {
+    width: 1400px;
+    height: 500px;
+    background-position: -4200px 0;
 }
